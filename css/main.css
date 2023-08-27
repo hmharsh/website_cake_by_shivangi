@@ -56,7 +56,7 @@ body{
     background: url(../images/banner-img-1.jpg) top/cover no-repeat;
 }
 .carousel-inner h1{
-    font-size: 60px;
+    font-size: 40px;
     font-family: var(--lg-font);
 }
 .carousel-item .btn{

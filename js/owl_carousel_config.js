@@ -10,16 +10,16 @@ $('.owl-carousel').owlCarousel({
     dots: false,
     responsive: {
         0:{
-            items: 1,
-        },
-        750:{
             items: 2,
         },
-        1150:{
+        750:{
             items: 3,
         },
-        1500:{
+        1150:{
             items: 4,
+        },
+        1500:{
+            items: 5,
         }
     }
 });
