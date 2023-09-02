@@ -1,13 +1,21 @@
 .product-item{
-    border: 1px solid rgb(219, 219, 219);
+    /* border: 1px solid rgb(219, 219, 219); */
+    height: auto;
 }
+
+.product-item:hover{
+    border: 1px solid rgb(219, 219, 219);
+    scale: 1.1;
+    transition: all 0.3s ease-in-out;
+}
+
 .product-img{
     position: relative;
     overflow: hidden;
 }
-.product-img:hover .btns{
+/* .product-img:hover .btns{
     bottom: 0;
-} 
+}  */
 
 .product-name{
     transition: all 0.3s ease-in-out;
@@ -15,4 +23,12 @@
 
 .product-item{
     width: 150px;
-} 
+}
+.product-price{
+    color: #fcb941;
+}
+.product-type{
+    font-size: 18px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out
+}
