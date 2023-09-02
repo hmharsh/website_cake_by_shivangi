@@ -54,7 +54,7 @@ body{
 
 /* header */
 #header{
-    background: url(../images/banner-img-1.jpg) top/cover no-repeat;
+    background: url(../images/banner-3.jpg) center/cover no-repeat;
 }
 .carousel-inner h1{
     font-size: 40px;
@@ -119,10 +119,10 @@ body{
 
 /* offers */
 #offers{
-    background: url(../images/offer_img.jpg) center/cover no-repeat;
+    background: url(../images/banner-3.jpg) center/cover no-repeat;
 }
 #offers .row{
-    min-height: 60vh;
+    min-height: 40vh;
 }
 .offers-content span{
     font-size: 28px;
@@ -187,4 +187,8 @@ footer a:hover{
 
 .invisible {
     color: white;
+}
+
+#recent_viewed {
+    display: block;
 }
