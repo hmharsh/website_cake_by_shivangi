@@ -80,14 +80,15 @@
                           Collections
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item text-dark" href="#">Traditional</a></li>
-                          <li><a class="dropdown-item text-dark" href="#">Fariyali/Farali</a></li>
-                          <li><a class="dropdown-item text-dark" href="#">Health-friendly</a></li>
-                          <li><a class="dropdown-item text-dark" href="#">Sugar-free</a></li>
-                          <li><a class="dropdown-item text-dark" href="#">Kids-special</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Traditional</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Fariyali/Farali</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Health-friendly</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Sugar-free</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Kids-special</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Chocoholic-special</a></li>
                           <!-- <li><hr class="dropdown-divider"></li> -->
-                          <li><a class="dropdown-item text-dark" href="#">Personalized</a></li>
-                          <li><a class="dropdown-item text-dark" href="#">Budget-friendly</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Personalized</a></li>
+                          <li><a class="dropdown-item text-dark nav-item text-uppercase nav-link" href="#">Budget-friendly</a></li>
                         </ul>
                       </li>
                 </ul>
@@ -293,22 +294,7 @@
     </div>
     <!-- end of owl_carousel- 2 -->
 
-    <!-- pincode -->
-    <section id="newsletter" class="py-5">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-center">
-                <div class="title text-center pt-2 pb-3">
-                    <h2 class="position-relative d-inline-block ms-4">delivery pincode</h2>
-                </div>
-                <p class="text-center text-muted">To ensure you see bakery items based on availability at your location..</p>
-                <div class="input-group mb-2 mt-2">
-                    <input type="text" class="form-control" placeholder="Enter Your pincode ...">
-                    <button class="btn btn-primary" type="submit">Filter</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of pincode -->
+
 
     <!-- collection -->
     <section id="collection" class="py-5">
@@ -316,7 +302,22 @@
             <div class="title text-center">
                 <h2 class="position-relative d-inline-block">Menu</h2>
             </div>
-
+    <!-- pincode -->
+    <section id="newsletter" class="py-4">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <!-- <div class="title text-center pt-2 pb-3">
+                    <h2 class="position-relative d-inline-block ms-4">delivery pincode</h2>
+                </div> -->
+                <h3 class="position-relative d-inline-block ms-4">Delivery pincode</h3>
+                <div class="input-group mb-1 mt-1">
+                      <input type="text" pattern="[0-9]{6}" class="form-control" placeholder="Filter products for your location">
+                      <button class="pin btn btn-primary" type="submit">Filter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of pincode -->
             <div class="row g-0">
                 <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
                     <button type="button" class="btn m-2 text-dark active-filter-btn"
@@ -543,82 +544,60 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6 row g-3">
                     <!-- <h3 class="fs-5">Top Rated</h3> -->
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="https://dummyimage.com/500x150/46C389/276924" alt="" class="img-fluid pe-3 w-70">
-                        <!-- <div>
-                            <p class="mb-0">Traditional</p>
-                        </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/traditional.jpg" alt="" class="img-fluid ps-2 pe-1 w-70">
                     </div>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="https://dummyimage.com/500x150/46C389/276924" alt="" class="img-fluid pe-3 w-70">
-                        <!-- <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/fariyali.jpg" alt="" class="img-fluid ps-2 pe-1  w-70">
                     </div>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="https://dummyimage.com/500x150/46C389/276924" alt="" class="img-fluid pe-3 w-70">
-                        <!-- <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/health.jpg" alt="" class="img-fluid ps-2 pe-1  w-70">
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-6 row g-3">
                     <!-- <h3 class="fs-5">Best Selling</h3> -->
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="https://dummyimage.com/500x150/46C389/276924" alt="" class="img-fluid pe-3 w-70">
-                        <!-- <div>
-                            <p class="mb-0">Traditional</p>
-                            <span>₹ 20.00</span>
-                        </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="images/sugar.jpg" alt="" class="img-fluid ps-2 pe-1  w-70">
                     </div>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="https://dummyimage.com/500x150/46C389/276924" alt="" class="img-fluid pe-3 w-70">
-                        <!-- <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/kids.jpg" alt="" class="img-fluid ps-2 pe-1  w-70">
                     </div>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="https://dummyimage.com/500x150/46C389/276924" alt="" class="img-fluid pe-3 w-70">
-                        <!-- <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="./images/chocoholic.jpg" alt="" class="img-fluid ps-2 pe-1  w-70">
                     </div>
                 </div>
-
-                <!-- <div class="col-md-6 col-lg-4 row g-3">
-                    <h3 class="fs-5">On Sale</h3>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/on_sale_1.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/on_sale_2.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/on_sale_3.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>₹ 20.00</span>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
     <!-- end of popular -->
+
+
+        <!-- Testimonial -->
+        <header id="header1" class="vh-50 carousel slide" data-bs-ride="carousel" data-bs-interval="2500" style="padding-top: 30px;padding-bottom: 30px;">
+            <div class="container h-100 d-flex align-items-center carousel-inner">
+                <div class="text-center carousel-item active">
+                    <h2 class="text-capitalize text-white">Want something Personalized?</h2>
+                    <h1 class="text-uppercase py-2 fw-bold text-white">Review</h1>
+                    <a href="#" class="btn mt-3 text-uppercase">Explore now</a>
     
+                </div>
+                <div class="text-center carousel-item">
+                    <h2 class="text-capitalize text-white">Looking for <b>Budget-friendly</b> bakery items</h2>
+                    <h1 class="text-uppercase py-2 fw-bold text-white">Review</h1>
+                    <a href="#" class="btn mt-3 text-uppercase">Explore now</a>
+                </div>
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#header1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header1" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </header>
+        <!-- end of Testimonial -->
+        <h1 class="text-center invisible">.</h1>
     <!-- footer -->
     <footer class="bg-dark py-5">
         <div class="container">

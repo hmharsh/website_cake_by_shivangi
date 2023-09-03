@@ -54,7 +54,10 @@ body{
 
 /* header */
 #header{
-    background: url(../images/banner-3.jpg) center/cover no-repeat;
+    background: url(../images/banner-6.jpg) center/cover no-repeat;
+}
+#header1{
+    background: url(../images/banner-5.jpg) center/cover no-repeat;
 }
 .carousel-inner h1{
     font-size: 40px;
