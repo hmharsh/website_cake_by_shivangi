@@ -191,5 +191,5 @@ footer a:hover{
     color: white;
 }
 #recent_viewed {
-    display: block;
+    display: none /* block or none*/;
 }
