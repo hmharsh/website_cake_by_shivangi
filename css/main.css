@@ -190,6 +190,6 @@ footer a:hover{
 .invisible {
     color: white;
 }
-#recent_viewed {
-    display: none /* block or none*/;
+#recent_viewed2 {
+    display: none; /* block or none*/;
 }
